@@ -19,7 +19,9 @@ public class Greeter {
   public String sayGoodbye() {
     return "Goodbye!";
   }
-
+  public int sayNamaste() {
+    return greetingCount;
+  }
   // Method to return the number of greetings made
   public int getGreetingCount() {
     return greetingCount;
